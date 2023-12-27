@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Gallery from './components/gallery/Portfolio'
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
+      <Gallery/>
       <Testimonial />
       <Contact />
       <Footer />
